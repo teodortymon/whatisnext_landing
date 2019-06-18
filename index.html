@@ -54,7 +54,7 @@
 	                        <h1 class="hero-title mt-0">Student onboarding made simple</h1>
 	                        <p class="hero-paragraph">You focus on what to put in the student goodie bags,
 							<br />we'll do the rest.</p>
-	                        <div class="hero-cta"><a onclick="gtag('event', 'click', {'event_label':'demo'});" class="button button-primary button-shadow" target="_blank" href="https://demo.whatisnext.se/sign-in">Check out demo</a></div>
+	                        <div class="hero-cta"><a onclick="gtag('event', 'click', {'event_category': 'Demo', 'event_label':'clicked to go and see the demo'})" class="button button-primary button-shadow" target="_blank" href="https://demo.whatisnext.se/sign-in">Check out demo</a></div>
 						</div>
 						<div class="hero-app">
 							<div class="hero-app-illustration">
@@ -299,48 +299,6 @@
                     </div>
                 </div>
             </section>
-
-            <!-- <section class="media section" id="team">
-                <div class="container-sm">
-                    <div class="media-inner section-inner">
-                        <div class="media-header text-center">
-                            <h2 class="section-title mt-0">Meet our team</h2>
-                            <p class="section-paragraph mb-0">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
-                        </div>
-						<div class="media-canvas">
-							<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
-							    <defs>
-							        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="media-canvas">
-							            <stop stop-color="#06101F" offset="0%"/>
-							            <stop stop-color="#1D304B" offset="100%"/>
-							        </linearGradient>
-							    </defs>
-							    <rect width="800" height="450" rx="8" fill="url(#media-canvas)" fill-rule="evenodd"/>
-							</svg>
-							<div class="media-control">
-								<svg width="96" height="96" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
-								    <defs>
-								        <linearGradient x1="87.565%" y1="15.873%" x2="17.086%" y2="80.538%" id="media-control">
-								            <stop stop-color="#FFF" stop-opacity=".64" offset="0%"/>
-								            <stop stop-color="#FFF" offset="100%"/>
-								        </linearGradient>
-										<filter x="-500%" y="-500%" width="1000%" height="1000%" filterUnits="objectBoundingBox" id="media-shadow">
-                                            <feOffset dy="16" in="SourceAlpha" result="shadowOffsetOuter"></feOffset>
-                                            <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter" result="shadowBlurOuter"></feGaussianBlur>
-                                            <feColorMatrix values="0 0 0 0 0.024 0 0 0 0 0.064 0 0 0 0 0.12 0 0 0 0.24 0" in="shadowBlurOuter"></feColorMatrix>
-                                        </filter>
-								    </defs>
-								    <g fill="none" fill-rule="evenodd">
-								        <circle fill="#FFF" cx="48" cy="48" r="48" style="mix-blend-mode:multiply;filter:url(#media-shadow)"/>
-										<circle fill="url(#media-control)" cx="48" cy="48" r="48"/>
-								        <path d="M44.6 39.2a1.001 1.001 0 0 0-1.6.8v18a1.001 1.001 0 0 0 1.6.8l12-9a.998.998 0 0 0 0-1.6l-12-9z" fill="#1D304B"/>
-								    </g>
-								</svg>
-							</div>
-						</div>
-                    </div>
-                </div>
-			</section> -->
 			<br />
 			<section class="testimonials section" id="team">
 				<div class="testimonials-shape testimonials-shape-1">
@@ -452,7 +410,7 @@
                                 <input class="input" type="email" name="email" placeholder="Your best email&hellip;" id="email-input">
                             </div>
                             <div class="control">
-                                <a onclick="gtag('event', 'click', {'event_label':'submit form', 'email':document.getElementById('email-input').value});" class="button button-primary button-block button-shadow">Keep in touch</a>
+                                <a onclick="gtag('event', 'click', {'event_category':'Newsletter', 'event_label':'submitted form', 'event_label': document.getElementById('email-input').value});" class="button button-primary button-block button-shadow">Keep in touch</a>
                             </div>
                         </div>
                     </div>
