@@ -449,10 +449,10 @@
                         </div>
                         <div class="footer-form newsletter-form field field-grouped">
                             <div class="control control-expanded">
-                                <input class="input" type="email" name="email" placeholder="Your best email&hellip;">
+                                <input class="input" type="email" name="email" placeholder="Your best email&hellip;" id="email-input">
                             </div>
                             <div class="control">
-                                <a class="button button-primary button-block button-shadow">Keep in touch</a>
+                                <a onclick="gtag('event', 'click', {'event_label':'submit form', 'email':document.getElementById('email-input').value});" class="button button-primary button-block button-shadow">Keep in touch</a>
                             </div>
                         </div>
                     </div>
