@@ -1,4 +1,4 @@
-# Venus
+# Laurel
 
 A landing page template.
 
